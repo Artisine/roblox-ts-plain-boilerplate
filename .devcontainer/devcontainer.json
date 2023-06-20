@@ -18,6 +18,12 @@
 		"npm install @rbxts/services @rbxts/object-utils @rbxts/string-utils @rbxts/beacon @rbxts/net", 
 		"echo hello world"
 	], 
+	"postStartCommand": [
+		"git clone --force https://github.com/Artisine/roblox-ts-plain-boilerplate .", 
+		"npm install -g roblox-ts", 
+		"npm install @rbxts/services @rbxts/object-utils @rbxts/string-utils @rbxts/beacon @rbxts/net", 
+		"echo hello world"
+	],
 
 	// Configure tool-specific properties.
 	"customizations": {

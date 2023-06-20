@@ -1,0 +1,20 @@
+{
+  "name": "Custom Image",
+  "image": "node",
+  "extensions": [
+    "roblox-ts.vscode-roblox-ts",
+    "evaera.vscode-rojo"
+  ],
+  "postCreateCommand": "npm install -g roblox-ts && npm install @rbxts/services @rbxts/object-utils @rbxts/string-utils @rbxts/beacon @rbxts/net",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shellArgs.linux": [
+      "-l"
+    ],
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "-l"
+    ]
+  },
+  "postStartCommand": "echo 'Hello World!'"
+}

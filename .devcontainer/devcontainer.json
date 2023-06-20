@@ -26,7 +26,11 @@
 		"vscode": {
 			"extensions": [
 				"roblox-ts.vscode-roblox-ts",
-				"evaera.vscode-rojo"
+				"evaera.vscode-rojo",
+				"ms-vsliveshare.vsliveshare",
+				"richardkotze.git-mob",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
 			]
 		}
 	}
